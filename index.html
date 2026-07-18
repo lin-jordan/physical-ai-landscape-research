@@ -1,0 +1,198 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="A sourced landscape of startups building the data, simulation, teleoperation, and evaluation layers for Physical AI."
+    />
+    <title>The Physical AI Data Landscape</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="companies.js" defer></script>
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#landscape">Skip to landscape</a>
+
+    <header class="site-header">
+      <a class="wordmark" href="index.html" aria-label="Physical AI Data Landscape home">
+        <span class="wordmark-mark" aria-hidden="true">P/AI</span>
+        <span>Field notes № 01</span>
+      </a>
+      <nav aria-label="Primary navigation">
+        <a href="#taxonomy">Taxonomy</a>
+        <a href="#landscape">Landscape</a>
+        <a href="#methodology">Methodology</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero" aria-labelledby="page-title">
+        <div class="hero-kicker">
+          <span>Independent market landscape</span>
+          <span>Research current as of July 2026</span>
+        </div>
+        <div class="hero-grid">
+          <div>
+            <h1 id="page-title">The Physical AI<br /><em>Data Landscape</em></h1>
+            <p class="hero-deck">
+              A selective map of the startups turning physical experience into
+              training data, simulated worlds, robot demonstrations, and
+              production feedback loops.
+            </p>
+          </div>
+          <aside class="hero-aside" aria-label="Landscape summary">
+            <div class="hero-stat">
+              <strong id="company-count">18</strong>
+              <span>companies researched</span>
+            </div>
+            <div class="hero-stat">
+              <strong>05</strong>
+              <span>market layers</span>
+            </div>
+            <p>
+              Built for investors, operators, researchers, and teams deciding
+              where the embodied-AI stack is taking shape.
+            </p>
+          </aside>
+        </div>
+        <div class="hero-rule" aria-hidden="true">
+          <span></span><span></span><span></span><span></span><span></span>
+        </div>
+      </section>
+
+      <section class="why-section" aria-labelledby="why-title">
+        <p class="eyebrow">Why this layer matters</p>
+        <div class="section-split">
+          <h2 id="why-title">Robots learn from experience—but useful experience is expensive.</h2>
+          <div>
+            <p>
+              Physical AI needs more than models and compute. It needs
+              synchronized observations and actions, diverse human and robot
+              demonstrations, high-fidelity simulated edge cases, and tools
+              that expose why systems fail after deployment.
+            </p>
+            <p>
+              These companies are building that connective tissue: the
+              infrastructure that turns motion, sensor streams, and field
+              operations into repeatable learning loops.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="taxonomy-section" id="taxonomy" aria-labelledby="taxonomy-title">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">Market taxonomy</p>
+            <h2 id="taxonomy-title">Five ways to make physical experience computable.</h2>
+          </div>
+          <p>
+            Primary categories define placement. Tags capture overlap between
+            data collection, human input, simulation, and production tooling.
+          </p>
+        </div>
+        <div class="taxonomy-grid" id="taxonomy-grid"></div>
+      </section>
+
+      <section class="landscape-section" id="landscape" aria-labelledby="landscape-title">
+        <div class="section-heading landscape-heading">
+          <div>
+            <p class="eyebrow">Company landscape</p>
+            <h2 id="landscape-title">The builders, organized by primary role.</h2>
+          </div>
+          <p id="results-summary" aria-live="polite">Showing all 18 companies.</p>
+        </div>
+
+        <div class="controls" aria-label="Landscape filters">
+          <div class="search-field">
+            <label for="company-search">Search the landscape</label>
+            <div class="search-input-wrap">
+              <span aria-hidden="true">⌕</span>
+              <input
+                id="company-search"
+                type="search"
+                placeholder="Company, tag, or capability"
+                autocomplete="off"
+              />
+            </div>
+          </div>
+          <fieldset class="filter-fieldset">
+            <legend>Filter by primary category</legend>
+            <div class="filter-list" id="category-filters"></div>
+          </fieldset>
+        </div>
+
+        <div id="landscape-sections"></div>
+        <div class="empty-state" id="empty-state" hidden>
+          <p class="eyebrow">No matches</p>
+          <h3>Try a broader search or view every category.</h3>
+          <button class="button button-secondary" id="clear-filters" type="button">
+            Reset filters
+          </button>
+        </div>
+      </section>
+
+      <section class="methodology-section" id="methodology" aria-labelledby="methodology-title">
+        <div class="methodology-lead">
+          <p class="eyebrow">Methodology</p>
+          <h2 id="methodology-title">A selective, sourced view—not an exhaustive directory.</h2>
+        </div>
+        <div class="methodology-grid">
+          <article>
+            <span>01</span>
+            <h3>Selection</h3>
+            <p>
+              Included companies are active private technology businesses with
+              a clear role in creating, collecting, transforming, evaluating,
+              or operationalizing data for robotics and embodied AI.
+            </p>
+          </article>
+          <article>
+            <span>02</span>
+            <h3>Categories</h3>
+            <p>
+              Each company receives one primary category based on its most
+              visible offering. Real-world data and teleoperation overlap by
+              design: teleoperation is both an operating method and a way to
+              produce demonstrations.
+            </p>
+          </article>
+          <article>
+            <span>03</span>
+            <h3>Funding</h3>
+            <p>
+              Figures use the latest defensible public total through July 2026.
+              “At least” and “approximately” flag incomplete disclosures,
+              calculated totals, or reliance on reputable company databases.
+            </p>
+          </article>
+          <article>
+            <span>04</span>
+            <h3>Commercial approach</h3>
+            <p>
+              Profiles describe observable routes to market. Where pricing or
+              monetization is not public, the landscape says so rather than
+              inferring a revenue model.
+            </p>
+          </article>
+        </div>
+        <div class="methodology-note">
+          <strong>Research cutoff</strong>
+          <p>
+            Company status and source pages were reviewed through July 18,
+            2026. Private-company reporting can change quickly; every profile
+            links to its supporting sources for follow-up diligence.
+          </p>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>The Physical AI Data Landscape</p>
+      <p>Research current as of July 2026</p>
+      <a href="#page-title">Back to top ↑</a>
+    </footer>
+  </body>
+</html>
