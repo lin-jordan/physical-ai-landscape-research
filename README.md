@@ -1,6 +1,10 @@
 # The Physical AI Data Landscape
 
-A static editorial website mapping 18 startups across the data and training
+## Live site
+
+[View the deployed Physical AI Data Landscape](https://physical-ai-landscape-research.vercel.app/)
+
+A static editorial website mapping startups across the data and training
 infrastructure behind Physical AI. The main page provides a visual taxonomy,
 search, category filtering, compact source links, and company tiles. Each
 company has a reusable one-page profile rendered from the same structured data.
